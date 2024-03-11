@@ -1,7 +1,7 @@
 Hello World
 
-Tree
-```
+Directory Tree:
+
 ├── init.lua
 ├── lazy-lock.json
 ├── lua
@@ -19,4 +19,17 @@ Tree
 │       │   └── treesitter.lua
 │       └── init.lua
 └── readme
-```
+
+-------------------------------------
+
+Base Plugins:
+  - Lsp
+  - Cmp
+  - Treesitter
+
+  - Neo-tree
+  - Telescope
+  - Lualine
+
+  - GruvBox
+
