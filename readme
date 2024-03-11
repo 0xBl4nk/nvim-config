@@ -1,5 +1,17 @@
-Hello World
+Hello World!
 
+-------------------------------------
+Base Plugins:
+  - Lsp
+  - Cmp
+  - Treesitter
+
+  - Neo-tree
+  - Telescope
+  - Lualine
+
+  - GruvBox
+-------------------------------------
 Directory Tree:
 
 ├── init.lua
@@ -19,17 +31,3 @@ Directory Tree:
 │       │   └── treesitter.lua
 │       └── init.lua
 └── readme
-
--------------------------------------
-
-Base Plugins:
-  - Lsp
-  - Cmp
-  - Treesitter
-
-  - Neo-tree
-  - Telescope
-  - Lualine
-
-  - GruvBox
-
