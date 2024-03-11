@@ -1,1 +1,22 @@
 Hello World
+
+Tree
+```
+├── init.lua
+├── lazy-lock.json
+├── lua
+│   ├── colorscheme
+│   │   └── init.lua
+│   ├── keymaps
+│   │   └── init.lua
+│   └── plugins
+│       ├── configs
+│       │   ├── cmp.lua
+│       │   ├── init.lua
+│       │   ├── lsp-config.lua
+│       │   ├── lualine.lua
+│       │   ├── telescope.lua
+│       │   └── treesitter.lua
+│       └── init.lua
+└── readme
+```
