@@ -1,6 +1,5 @@
+require('plugins.configs.cmp')
 require('plugins.configs.lualine')
-require('plugins.configs.nvim-tree')
 require('plugins.configs.telescope')
 require('plugins.configs.treesitter')
 require('plugins.configs.lsp-config')
-require('plugins.configs.cmp')

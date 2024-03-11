@@ -31,18 +31,23 @@ local plugins = {
   'saadparwaiz1/cmp_luasnip',
   'rafamadriz/friendly-snippets',
   {
-    "windwp/nvim-autopairs",
+    'windwp/nvim-autopairs',
     event = "InsertEnter",
-    config = function()
-        require("nvim-autopairs").setup {}
-    end
+    config = true
   },
 
   -- General plugins
-  'nvim-tree/nvim-tree.lua',
-  'nvim-tree/nvim-web-devicons',
   'nvim-lualine/lualine.nvim',
   'nvim-treesitter/nvim-treesitter',
+  {
+    'nvim-neo-tree/neo-tree.nvim',
+    branch = "v3.x",
+    dependencies = {
+      'nvim-lua/plenary.nvim',
+      'nvim-tree/nvim-web-devicons',
+      'MunifTanjim/nui.nvim',
+    }
+  },
   {
     'nvim-telescope/telescope.nvim',
     tag = '0.1.5',
