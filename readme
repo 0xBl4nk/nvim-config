@@ -1,1 +1,4 @@
 Install Packer
+
+after run, type :PackerSync to sync all plugins
+
