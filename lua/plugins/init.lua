@@ -15,7 +15,13 @@ local plugins = {
   'wbthomason/packer.nvim',
 
   -- Colorscheme plugins
-  'ellisonleao/gruvbox.nvim',
+  'ArthurHydr/darking.nvim',
+  { 
+    "bluz71/vim-moonfly-colors", 
+    name = "moonfly", 
+    lazy = false, 
+    priority = 1000 
+  },
 
   -- LSP plugins
   {
