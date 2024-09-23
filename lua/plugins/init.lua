@@ -59,6 +59,7 @@ local plugins = {
     tag = '0.1.5',
     dependencies = { {'nvim-lua/plenary.nvim'} }
   },
+  'andweeb/presence.nvim'
 }
 
 local opts = {}
