@@ -15,7 +15,7 @@ local plugins = {
   'wbthomason/packer.nvim',
 
   -- Colorscheme plugins
-  'ArthurHydr/darking.nvim',
+  '0xBl4nk/darking.nvim',
   { 
     "bluz71/vim-moonfly-colors", 
     name = "moonfly", 
@@ -59,7 +59,8 @@ local plugins = {
     tag = '0.1.5',
     dependencies = { {'nvim-lua/plenary.nvim'} }
   },
-  'andweeb/presence.nvim'
+  'andweeb/presence.nvim',
+  'iamcco/markdown-preview.nvim'
 }
 
 local opts = {}
